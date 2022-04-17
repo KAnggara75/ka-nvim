@@ -19,7 +19,7 @@ set cursorline " add cur line highlight
 "set nobackup
 " set expandtab
 " set autoindent
-" set nocompatible
+set nocompatible " Use Vim defaults (much better!)
 " set scrolloff=10
 " set laststatus=2
 "set backupskip=/tmp/*,/private/tmp/*
