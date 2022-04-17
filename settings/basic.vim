@@ -2,8 +2,7 @@
 " init autocmd
 autocmd!
 
-" set script encoding
-scriptencoding utf-8
+scriptencoding utf-8 " set script encoding
 
 " stop loading config if it's on tiny or small
 if !1 | finish | endif
