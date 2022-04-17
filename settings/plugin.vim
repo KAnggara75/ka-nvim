@@ -5,6 +5,7 @@ endif
 call plug#begin()
 
 Plug 'sheerun/vim-polyglot'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
