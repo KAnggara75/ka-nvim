@@ -5,6 +5,7 @@ endif
 call plug#begin()
 
 Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

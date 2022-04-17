@@ -4,3 +4,5 @@ runtime ./settings/basic.vim
 runtime ./settings/plugin.vim
 " colorscheme
 runtime ./settings/theme.vim
+" key bind
+runtime ./settings/key.vim
