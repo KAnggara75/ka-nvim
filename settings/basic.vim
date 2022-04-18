@@ -14,9 +14,9 @@ set fileencoding=utf-8  " The encoding written to file.
 set shell=zsh " set shell to zsh
 set cursorline " add cur line highlight
 set cursorcolumn " add cur column highlight
+set relativenumber " add relative line number
 
 "set hlsearch
-"set nobackup
 " set expandtab
 " set autoindent
 set nocompatible " Use Vim defaults (much better!)

@@ -4,6 +4,7 @@ endif
 
 call plug#begin()
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
