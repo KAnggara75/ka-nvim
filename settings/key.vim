@@ -32,3 +32,11 @@ inoremap <C-B> <Esc>:NERDTreeToggle<CR> " Open Explorer insert
 nnoremap <C-B> <Esc>:NERDTreeToggle<CR> " Open Explorer normal
 inoremap <C-F> <Esc>:NERDTreeFind<CR> " Find file insert
 nnoremap <C-F> <Esc>:NERDTreeFind<CR> " Find file normal
+
+" Move Line up/down
+nnoremap ˚ :m .-2<CR>==
+vnoremap ˚ :m '<-2<CR>gv=gv
+inoremap ˚ <Esc>:m .-2<CR>==gi
+nnoremap ∆ :m .+1<CR>==
+vnoremap ∆ :m '>+1<CR>gv=gv
+inoremap ∆ <Esc>:m .+1<CR>==gi
