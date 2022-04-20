@@ -11,6 +11,7 @@ Plug 'preservim/nerdtree' |
 Plug 'github/copilot.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
+Plug 'wakatime/vim-wakatime'
 Plug 'airblade/vim-gitgutter'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
