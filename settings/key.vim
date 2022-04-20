@@ -19,15 +19,26 @@ inoremap kk <Esc><Esc>
 inoremap JJ <Esc><Esc>
 inoremap KK <Esc><Esc>
 
+" Visual mode
+inoremap vvv <Esc>v 
+
 " NERDTree
-inoremap <C-b> <Esc>:NERDTreeToggle<CR> " Open Explorer insert
-nnoremap <C-b> <Esc>:NERDTreeToggle<CR> " Open Explorer normal
-inoremap <C-f> <Esc>:NERDTreeFind<CR> " Find file insert
-nnoremap <C-f> <Esc>:NERDTreeFind<CR> " Find file normal
-inoremap <C-B> <Esc>:NERDTreeToggle<CR> " Open Explorer insert
-nnoremap <C-B> <Esc>:NERDTreeToggle<CR> " Open Explorer normal
-inoremap <C-F> <Esc>:NERDTreeFind<CR> " Find file insert
-nnoremap <C-F> <Esc>:NERDTreeFind<CR> " Find file normal
+" Open Explorer insert
+inoremap <C-b> <Esc>:NERDTreeToggle<CR> 
+" Open Explorer normal
+nnoremap <C-b> <Esc>:NERDTreeToggle<CR>
+" Find file insert
+inoremap <C-f> <Esc>:NERDTreeFind<CR>
+" Find file normal
+nnoremap <C-f> <Esc>:NERDTreeFind<CR>
+" Open Explorer insert
+inoremap <C-B> <Esc>:NERDTreeToggle<CR>
+" Open Explorer normal
+nnoremap <C-B> <Esc>:NERDTreeToggle<CR>
+" Find file insert
+inoremap <C-F> <Esc>:NERDTreeFind<CR> 
+" Find file normal
+nnoremap <C-F> <Esc>:NERDTreeFind<CR> 
 
 " Move Line up/down
 nnoremap ˚ :m .-2<CR>==
@@ -42,3 +53,10 @@ nnoremap <C-k> :tabnext<CR>
 nnoremap <C-j> :tabprev<CR>
 nnoremap <C-h> :bnext<CR>
 nnoremap <C-l> :bprev<CR>
+
+" Search file with fuzzy finder
+nnoremap <C-P> :Files<CR>
+nnoremap <C-G> :GFiles<CR>
+inoremap <C-P> :Files<CR>
+inoremap <C-G> :GFiles<CR>
+
