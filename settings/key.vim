@@ -14,14 +14,10 @@ inoremap <C-Q> <Esc>:q<CR>
 nnoremap <C-Q> <Esc>:q<CR>
 
 " back to normal mode
-inoremap hh <Esc><Esc>
 inoremap jj <Esc><Esc>
 inoremap kk <Esc><Esc>
-inoremap ll <Esc><Esc>
-inoremap HH <Esc><Esc>
 inoremap JJ <Esc><Esc>
 inoremap KK <Esc><Esc>
-inoremap LL <Esc><Esc>
 
 " NERDTree
 inoremap <C-b> <Esc>:NERDTreeToggle<CR> " Open Explorer insert
@@ -40,3 +36,7 @@ inoremap ˚ <Esc>:m .-2<CR>==gi
 nnoremap ∆ :m .+1<CR>==
 vnoremap ∆ :m '>+1<CR>gv=gv
 inoremap ∆ <Esc>:m .+1<CR>==gi
+
+" Next and Prev windows
+nnoremap <C-k> :tabnext<CR>
+nnoremap <C-j> :tabprev<CR>
