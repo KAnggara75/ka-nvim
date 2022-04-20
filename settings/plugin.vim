@@ -6,9 +6,10 @@ call plug#begin()
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
-Plug 'preservim/nerdtree'
-Plug 'sheerun/vim-polyglot'
+Plug 'preservim/nerdtree' | 
+      \ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'github/copilot.vim'
+Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
 Plug 'ryanoasis/vim-devicons'
