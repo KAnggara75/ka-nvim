@@ -6,5 +6,7 @@
     "css",
     "html",
     "json"
-  ]
+  ],
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggestionActions.enabled": false
 }

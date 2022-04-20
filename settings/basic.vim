@@ -64,4 +64,6 @@ autocmd InsertLeave * set nopaste
 " Add asterisks in block comments
 set formatoptions+=r
 
-"}}}
+" autocmd BufWritePre,TextChanged,InsertLeave *.js format
+" 
+" }}}
