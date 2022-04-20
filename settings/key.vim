@@ -40,3 +40,5 @@ inoremap ∆ <Esc>:m .+1<CR>==gi
 " Next and Prev windows
 nnoremap <C-k> :tabnext<CR>
 nnoremap <C-j> :tabprev<CR>
+nnoremap <C-h> :bnext<CR>
+nnoremap <C-l> :bprev<CR>
