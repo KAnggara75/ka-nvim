@@ -1,3 +1,10 @@
 {
-	"coc.preferences.formatOnSaveFiletypes": ["dart", "php"]
+  "coc.preferences.formatOnSaveFiletypes": [
+    "dart",
+    "php",
+    "js",
+    "css",
+    "html",
+    "json"
+  ]
 }
