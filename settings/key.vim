@@ -60,3 +60,6 @@ nnoremap <C-G> :GFiles<CR>
 inoremap <C-P> :Files<CR>
 inoremap <C-G> :GFiles<CR>
 
+" CommentaryLine 
+nnoremap ÷ <Esc><Plug>CommentaryLine
+inoremap ÷ <Esc><Plug>CommentaryLine i
