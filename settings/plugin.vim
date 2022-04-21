@@ -12,6 +12,7 @@ Plug 'preservim/nerdtree' |
       \ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'github/copilot.vim'
 Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-commentary'
 Plug 'windwp/nvim-autopairs'
 Plug 'wakatime/vim-wakatime'
 Plug 'windwp/nvim-ts-autotag'
