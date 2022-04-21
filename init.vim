@@ -5,3 +5,4 @@ runtime ./settings/clipboard/clipboard.vim " clipboard
 runtime ./settings/nerdTree.vim " NERDTree settings
 runtime ./settings/coc.vim " COC settings
 runtime ./settings/key.vim " key bind
+runtime ./settings/window.vim " window settings
