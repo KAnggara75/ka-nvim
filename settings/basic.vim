@@ -7,14 +7,14 @@ scriptencoding utf-8 " set script encoding
 " stop loading config if it's on tiny or small
 if !1 | finish | endif
 
-set number " add line number
 set title " add file name in title bar
-set encoding=utf-8  " The encoding displayed.
-set fileencoding=utf-8  " The encoding written to file.
+set number " add line number
 set shell=zsh " set shell to zsh
 set cursorline " add cur line highlight
 set cursorcolumn " add cur column highlight
-set relativenumber " add relative line number
+set encoding=utf-8  " The encoding displayed.
+" set relativenumber " add relative line number
+set fileencoding=utf-8  " The encoding written to file.
 
 "set hlsearch
 " set expandtab
@@ -46,12 +46,11 @@ set ignorecase
 set smarttab
 
 " indents
-set tabstop=2
-set shiftwidth=2
 set ai "Auto indent
 set si "Smart indent
-filetype plugin indent on
 set nowrap "No Wrap lines
+set tabstop=2
+set shiftwidth=2
 set backspace=start,eol,indent
 
 " Finding files - Search down into subfolders
@@ -64,6 +63,7 @@ autocmd InsertLeave * set nopaste
 " Add asterisks in block comments
 set formatoptions+=r
 
+filetype plugin indent on
 " autocmd BufWritePre,TextChanged,InsertLeave *.js format
 " 
 " }}}
