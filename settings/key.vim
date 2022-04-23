@@ -66,3 +66,6 @@ inoremap <C-G> :GFiles<CR>
 " CommentaryLine 
 nnoremap ÷ <Esc><Plug>CommentaryLine
 inoremap ÷ <Esc><Plug>CommentaryLine i
+
+nmap <F5> <Esc>:CocCommand flutter.run<CR>
+imap <tab> <Plug>(coc-snippets-expand)
