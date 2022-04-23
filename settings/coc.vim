@@ -129,3 +129,21 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+"coc config
+let g:coc_global_extensions = [
+  \ 'coc-snippets',
+  \ 'coc-tsserver',
+  \ 'coc-eslint', 
+  \ 'coc-prettier', 
+  \ 'coc-json', 
+  \ 'coc-flutter',
+  \ 'coc-snippets',
+  \ 'coc-yaml',
+  \ 'coc-tslint-plugin',
+  \ 'coc-tsserver',
+  \ 'coc-emmet',
+  \ 'coc-css',
+  \ 'coc-html',
+  \ 'coc-json',
+  \ ]
