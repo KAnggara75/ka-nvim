@@ -19,6 +19,9 @@ inoremap kk <Esc><Esc>
 inoremap JJ <Esc><Esc>
 inoremap KK <Esc><Esc>
 
+" Undo
+inoremap uuu <Esc>u
+
 " Visual mode
 inoremap vvv <Esc>v 
 
