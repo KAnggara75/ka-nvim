@@ -54,8 +54,8 @@ inoremap ∆ <Esc>:m .+1<CR>==gi
 " Next and Prev windows
 nnoremap <C-k> :tabnext<CR>
 nnoremap <C-j> :tabprev<CR>
-nnoremap <C-h> :bnext<CR>
-nnoremap <C-l> :bprev<CR>
+nnoremap <C-l> :bnext<CR>
+nnoremap <C-h> :bprev<CR>
 
 " Search file with fuzzy finder
 nnoremap <C-P> :Files<CR>
@@ -68,4 +68,4 @@ nnoremap ÷ <Esc><Plug>CommentaryLine
 inoremap ÷ <Esc><Plug>CommentaryLine i
 
 nmap <F5> <Esc>:CocCommand flutter.run<CR>
-imap <tab> <Plug>(coc-snippets-expand)
+
