@@ -2,11 +2,16 @@
   "coc.preferences.formatOnSaveFiletypes": [
     "dart",
     "php",
-    "js",
     "css",
     "html",
-    "json"
+    "json",
+    "jsonc",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
   ],
   "javascript.suggestionActions.enabled": false,
-  "typescript.suggestionActions.enabled": false
+  "typescript.suggestionActions.enabled": false,
+  "flutter.lsp.debug": true
 }

@@ -15,12 +15,16 @@ Plug 'natebosch/dartlang-snippets'
 
 " Language Support
 Plug 'github/copilot.vim'
+Plug 'KAnggara75/coc-bloc'
 Plug 'tpope/vim-commentary'
 Plug 'sheerun/vim-polyglot'
 Plug 'windwp/nvim-autopairs'
 Plug 'windwp/nvim-ts-autotag'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+
+" Add Discord Status
+Plug 'andweeb/presence.nvim'
 
 " File and folder management
 Plug 'preservim/nerdtree' | 

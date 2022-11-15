@@ -6,3 +6,5 @@ runtime ./settings/coc.vim " COC settings
 runtime ./settings/key.vim " key bind
 runtime ./settings/style.vim " window settings
 runtime ./settings/variable.vim " variable settings
+set runtimepath^=/Users/k/Work/kuroject_mac/coc-flutter-bloc
+

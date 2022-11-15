@@ -1,8 +1,8 @@
 " snippets setting
 let g:lsc_auto_map = v:true
+let g:UltiSnipsExpandTrigger = '<Nop>'
 let g:coc_snippet_next = '<TAB>'
 let g:coc_snippet_prev = '<S-TAB>'
-let g:UltiSnipsExpandTrigger = '<Nop>'
 
 " gitgutter icon setting
 let g:gitgutter_sign_added = '+'
